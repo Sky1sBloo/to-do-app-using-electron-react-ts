@@ -1,0 +1,18 @@
+.taskCard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.taskCard:hover {
+    background-color: #505263;
+}
+
+.taskCard p {
+    color: white;
+    padding-left: 1rem;
+}
+
+.taskCard button {
+    margin: 10px;
+}

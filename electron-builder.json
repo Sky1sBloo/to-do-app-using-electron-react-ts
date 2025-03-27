@@ -1,0 +1,15 @@
+{
+    "appId": "com.sky1sbloo.toDoApp",
+    "files": ["dist-electron/electron", "dist-react"],
+    "extraResources": ["dist-electron/preload/**", "src/assets/**"],
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
